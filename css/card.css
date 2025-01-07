@@ -18,7 +18,7 @@ html {
 }
 
 .card {
-    background-image: url(/images/grey_img1.webp);
+    background-image: url(images/grey_img1.webp);
     height: 39rem;
     width: 22rem;
     background-repeat: no-repeat;
@@ -33,7 +33,7 @@ html {
     height: 30rem;
     width: 17rem;
     border-radius: 20px;
-    background-image: url(/images/building_img1.jpg);
+    background-image: url(images/building_img1.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: top;
