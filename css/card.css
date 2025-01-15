@@ -14,13 +14,12 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
 }
 
 .card {
     background-image: url(../images/grey_img1.webp);
-    height: 39rem;
-    width: 22rem;
+    min-height: 100vh;
+    width: 100vw;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -29,13 +28,13 @@ html {
 }
 
 .card-details {
-    background-color: white;
-    height: 30rem;
+    background-color: #fefefe;
+    height: 28rem;
     width: 17rem;
     border-radius: 20px;
     background-image: url(../images/building_img1.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 275px 165px;
     background-position: top;
     box-shadow: 32px 29px 13px -19px rgba(41, 35, 35, 0.45), 25px 0px 20px -20px rgba(0, 0, 0, 0.45);
     text-align: center;
@@ -47,32 +46,35 @@ html {
 #description {
     margin: 37px auto;
     text-align: center;
-    color: rgb(107, 195, 166);
+    color: #a2a2a2;
     padding-left: 9px;
     padding-right: 9px;
+    font-size: 15px;
 }
 
 #title1 {
-    color: brown;
+    color: #ce6e45;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: -30px;
+    margin-bottom: -18px;
+    font-size: 0.7rem;
 }
 
 #title2 {
-    font-size: xx-large;
+    font-size: 1.4rem;
     font-weight: 700;
     font-family: Arial, Helvetica, sans-serif;
-    margin-bottom: -4px;
+    margin-bottom: -14px;
+    color: #01020b;
 }
 
 .footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #ff5722;
+    background-color: #ff4b0b;
     border-radius: 0 0 20px 20px;
-    height: 85px;
+    height: 78px;
 }
 
 .box {
@@ -84,16 +86,16 @@ html {
 }
 
 .value {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: white;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: #ffe8cc;
     font-family: Helvetica, sans-serif;
     margin-bottom: 0px;
 }
 
 .key {
-    font-size: 0.8rem;
-    color: rgb(221, 209, 209);
+    font-size: 0.7rem;
+    color: #ffe8cc;
     text-transform: uppercase;
     font-family: "Helvetica Neue", Helvetica, sans-serif;
     letter-spacing: -0.5px;
